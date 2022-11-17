@@ -1,0 +1,13 @@
+.nav {
+    height: 70px;
+    background: pink;
+}
+
+.logo {
+    margin: 0px 0px 0px 20px;
+    height: 70px;
+    width: 256px;
+    background: url("../images/symbian/logo.png") no-repeat;
+    scale: 0.8;
+    font-size: 0;
+}
