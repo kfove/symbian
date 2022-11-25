@@ -1,13 +1,45 @@
-.nav {
-    height: 70px;
-    background: pink;
-}
-
 .logo {
-    margin: 0px 0px 0px 20px;
+    background: url("../images/symbian/logo.png") no-repeat;
+    font-size: 0;
     height: 70px;
     width: 256px;
-    background: url("../images/symbian/logo.png") no-repeat;
-    scale: 0.8;
-    font-size: 0;
+}
+
+.logo a {
+    display: block;
+    height: 70px;
+    width: 256px;
+}
+
+.nav {
+    width: 1192px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.menu a {
+    display: block;
+    margin-top: 0px;
+    transition: all 0.4s;
+}
+
+.nav_list {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.nav_list span {
+    display: block;
+    color: #000;
+}
+
+.nav_list li {
+    width: 70px;
+    height: 16px;
+    margin: 25px 40px 0px 0px;
+    float: left;
+    overflow: hidden;
+}
+.nav_list li:hover a{
+    margin-top: -16px;
 }
