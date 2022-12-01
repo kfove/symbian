@@ -1,5 +1,6 @@
 function n() {
     alert("啥都没有")
 }
-window.addEventListener('load', e => {
-})  
+let devices = document.getElementsByClassName("devices").mousemove = () => {
+    console.log("Hello");
+}
