@@ -12,13 +12,14 @@
 </head>
 
 <body>
-    <div class="overlib"></div>
+    <div class="overlib" style="display: none;"><img src="./static/images/kunkun" alt=""></div>
     <header class="nav">
         <h1 class="logo left"><a href="#">Symbian</a></h1>
         <div class="nav_list right">
             <ul class="menu">
                 <li><a href="#"><span class="nav_span1">首页</span><span class="nav_span2">HOME</span></a></li>
-                <li class="devices"><a href="https://zh.wikipedia.org/wiki/Symbian#%E4%BD%BF%E7%94%A8Symbian%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1%E7%9A%84%E8%A3%9D%E7%BD%AE"
+                <li id="devices_list" class="devices"><a
+                        href="https://zh.wikipedia.org/wiki/Symbian#%E4%BD%BF%E7%94%A8Symbian%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1%E7%9A%84%E8%A3%9D%E7%BD%AE"
                         target="_blank"><span class="nav_span1">设备</span><span class="nav_span2">DEVICES</span></a></li>
                 <li><a href="https://www.dospy.wang/" target="_blank" title="塞班论坛"><span
                             class="nav_span1">社区</span><span class="nav_span2">FORMS</span></a></li>
@@ -26,8 +27,8 @@
                             class="nav_span1">关于</span><span class="nav_span2">ABOUT</span></a></li>
                 <li><a href="https://zh.wikipedia.org/wiki/MeeGo" target="_blank" title="MeeGo操作系统"><span
                             class="nav_span1">更多</span><span class="nav_span2">MORE</span></a></li>
-                <li><a href="./login.html" title="登陆"><span
-                            class="nav_span1">登陆</span><span class="nav_span2">Login</span></a></li>
+                <li><a href="./login.html" title="登陆"><span class="nav_span1">登陆</span><span
+                            class="nav_span2">Login</span></a></li>
             </ul>
         </div>
     </header>
@@ -39,57 +40,65 @@
             <button class="btn" onclick="n()">了解更多</button>
         </div>
     </div>
+    <hr>
+    <div class="syminfo" title="写不出来凑一凑">
+        <div>
+            <h2>Symbian</h2>
+        </div>
+    </div>
     <div class="module">
         <ul>
             <li class="mbox left">
                 <div class="mlist">
+                    <h2>Nokia QD</h2>
                     <div class="box"><img src="./static/images/symbian/qd" alt="" class="src">
                         <div class="mask">
-                            <h2>Nokia QD</h2>
+                            <h2>Symbian S60v1</h2>
                             <p>SymbianOS操作系统Series 60操作界面的第一版,n-gage 1游戏,有独占游戏地狱镇魂歌</p>
                         </div>
+
                     </div>
-                    <h2>Symbian S60v1</h2>
                 </div>
             </li>
 
             <li class="mbox left">
                 <div class="mlist">
+                    <h2>Nokia N96</h2>
                     <div class="box"><img src="./static/images/symbian/n96.jpg" alt="" class="src">
                         <div class="mask">
-                            <h2>Nokia N96</h2>
+                            <h2>Symbian S60v3</h2>
                             <p>SymbianOS操作系统Series 60操作界面的第三版,多为按键机,其中n96有3D加速</p>
                         </div>
                     </div>
-                    <h2>Symbian S60v3</h2>
+
                 </div>
             </li>
 
             <li class="mbox left">
                 <div class="mlist">
+                    <h2>Nokia N97 mini</h2>
                     <div class="box"><img src="./static/images/symbian/n97mini.jpeg" alt="" class="src">
                         <div class="mask">
-                            <h2>Nokia N97 mini</h2>
+                            <h2>Symbian S60 v5</h2>
                             <p>SymbianOS操作系统Series 60操作界面的第五版,默认电阻屏,有键盘对n-nage游戏较为友好</p>
                         </div>
                     </div>
-                    <h2>Symbian S60 v5</h2>
+
                 </div>
             </li>
 
             <li class="mbox left">
                 <div class="mlist">
+                    <h2>Nokia N8</h2>
                     <div class="box"><img src="./static/images/symbian/n8.jpg" alt="" class="src">
                         <div class="mask">
-                            <h2>Nokia N8</h2>
+                            <h2>Symbian3</h2>
                             <p>就是Symbian3,可升级成Anna或Belle, 设备升级为电容屏,更好支持qt,升级Anna或Belle后可玩性的大增,另外开源</p>
                         </div>
                     </div>
-                    <h2>Symbian3</h2>
+
                 </div>
             </li>
-
-            <li></li>
         </ul>
         <div>
             <audio id="ji" src="./static/audio/鸡.mp3">
@@ -101,8 +110,58 @@
             <audio id="mei" src="./static/audio/美.mp3">
             </audio>
         </div>
-        <script src="./static/js/jntm.js" type="text/javascript"></script>
-        <script src="./static/js/symbian.js" type="text/javascript"></script>
+    </div>
+    <hr>
+    <div class="gl" title="写不出来凑一凑">
+        <div>
+            <h2>某些游戏软件</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="game"><a href="https://iniche.cn/game/31756" target="_blank">
+                <div class="cardbox">
+                    <div class="imgbox"><img src="./static/images/时光八音盒_萌之篇_玉品.jpeg" alt=""></div>
+                    时光八音盒_萌之篇_玉品
+                </div>
+            </a>
+            <div class="cardbox">
+                <div class="imgbox"><img src="./static/images/网易云音乐网易云音乐.webp" alt=""></div>
+                网易云音乐
+            </div>
+            <div class="cardbox">
+                <div class="imgbox"><img src="./static/images/生化惊悚2-死亡寂静.webp" alt=""></div>
+                生化惊悚2-死亡寂静
+            </div>
+            <div class="cardbox">
+                <div class="imgbox"><img src="./static/images/索尼PS2正版-战神2－经典巨作.webp" alt=""></div>
+                索尼PS2正版-战神2－经典巨作
+            </div>
+            <div class="cardbox">
+                <div class="imgbox"><img src="./static/images/pymo.png" alt=""></div>
+                pymo
+            </div>
+            <div class="cardbox">
+                <div class="imgbox"><img src="./static/images/刺客信条2-gameloft正版.webp" alt=""></div>
+                刺客信条2-gameloft正版刺客信条2-gameloft正版
+            </div>
+            <div class="cardbox">
+                <div class="imgbox"><img src="./static/images/胴居悄女撲2.webp" alt=""></div>
+                胴居悄女撲2
+            </div>
+        </div>
+    </div>
+    <div class="jige">
+        <audio id="ji" src="./static/audio/鸡.mp3">
+        </audio>
+        <audio id="ni" src="./static/audio/你.mp3">
+        </audio>
+        <audio id="tai" src="./static/audio/太.mp3">
+        </audio>
+        <audio id="mei" src="./static/audio/美.mp3">
+        </audio>
+    </div>
+    <script src="./static/js/jntm.js" type="text/javascript"></script>
+    <script src="./static/js/symbian.js" type="text/javascript"></script>
 </body>
 
 </html>

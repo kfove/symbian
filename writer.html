@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于作者</title>
+    <link href="./static/css/writer.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="imgbox"><img src="./static/images/writer.jpg" alt=""></div>
+            <div class="content">
+                <div class="name">
+                    <h2>梁宏江</h2>
+                    <p>啥都没有</p>
+                </div>
+                <div class="about">
+                    <button id="qq">QQ</button>
+                    <button id="mails">Mails</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="message">
+        <h3>kfove.liang@gmail.com</h3>
+    </div>
+    <script>
+        let qbtn = document.getElementById("qq");
+        let mbtn = document.getElementById("mails");
+        mbtn.onclick = (function () {
+            let message = document.querySelector(".message");
+            let count = 0;
+            return function () {
+                if (count == 0) {
+                    count = 1;
+                    message.style.display = "block";
+                } else {
+                    count = 0;
+                    message.style.display = "none";
+                }
+            }
+
+        })()
+        qbtn.onclick = (e) => { window.open("tencent://message/?uin=582091350") }
+    </script>
+</body>
+
+</html>
