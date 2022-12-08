@@ -7,7 +7,24 @@ window.addEventListener("click", (e) => {
     setTimeout(() => { overlib.setAttribute("style", "display: none;transition: all 0.3s;"); }, 2000);
 
 
+
 })
-document.getElementById("devices_list").onmouseover = function (e) {
-    console.log(e);
+function show_devices() {
+    let showd = document.getElementById("devices");
+    showd.style.display = "block";
 }
+function ushow_devices() {
+    let showd = document.getElementById("devices");
+    showd.style.display = "none";
+    
+
+}
+document.getElementById("devices_list").addEventListener("mouseover", (e) => {
+    show_devices();
+    let mout = document.getElementById("devices_list");
+    let dlist = document.getElementById("dl");
+    dlist.addEventListener("mouseleave", ()=>{
+        setTimeout("document.getElementById(\"devices\").style.display = \"none\"")
+    })
+
+})
