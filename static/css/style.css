@@ -12,6 +12,8 @@
 #devices .devices_list {
     width: 1192px;
     height: 300px;
+    display: flex;
+    justify-content: center;
     margin: 0px auto;
     background-color: #fff;
     z-index: 99;
@@ -217,4 +219,13 @@ img {
 .game .cardbox h2{
     font-size: 1em;
     font-style: normal;
+}
+.devices_box {
+    border: 1px #000 solid;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
