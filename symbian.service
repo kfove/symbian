@@ -1,0 +1,10 @@
+[Unit]
+Description=symbian
+After=network-online.target
+[Service]
+Type=simple
+ExecStart=python3 -m http.server
+Restart=on-abort
+User=root
+[Install]
+WantedBy=default.target 
