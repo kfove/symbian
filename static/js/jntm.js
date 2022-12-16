@@ -1,18 +1,18 @@
 document.onkeydown = function (e) {
-  let key = e.keyCode;
-  if (key == 74) {
+  let key = e.key;
+  if (key == 'j') {
     let audio = document.getElementById("ji");
     audio.play();
   }
-  if (key == 78) {
+  if (key == 'n') {
     let audio = document.getElementById("ni");
     audio.play();
   }
-  if (key == 84) {
+  if (key == 't') {
     let audio = document.getElementById("tai");
     audio.play();
   }
-  if (key == 77) {
+  if (key == 'm') {
     let audio = document.getElementById("mei");
     audio.play();
   }

@@ -256,3 +256,17 @@ div.asscess {
 div.asscess button {
     margin: 20px 20px;
 }
+.totop {
+    width: 40px;
+    height: 40px;
+    font-size: 0em;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    right: 20px;
+    z-index: 100;
+    box-sizing: border-box;
+    cursor: pointer;
+}

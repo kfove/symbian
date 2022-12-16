@@ -9,6 +9,27 @@ window.addEventListener("click", (e) => {
 
 
 })
+window.addEventListener("scroll", (e)=>{
+    let co = document.documentElement.scrollTop;
+    const totop = document.querySelector(".totop");
+    if(co > 900)
+    {
+        totop.style.fontSize = "1em";
+    }
+    else
+    {
+        totop.style.fontSize = "0em";
+    }
+})
+document.getElementById("totop").addEventListener("click", (e)=>{
+    console.log(window.screenTop);
+    window.scroll(
+        {
+            top: 0,
+            behavior: 'smooth'
+        }
+    )
+})
 function show_devices() {
     let showd = document.getElementById("devices");
     showd.style.display = "block";
